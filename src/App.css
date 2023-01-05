@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+.userCard{
+  border: 3px solid black;
+  margin: 50px 100px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: teal;
+  background-color: rgba(0, 128, 128, 0.15);
+}
+
+.userButton{
+  padding: 15px 30px;
+  font-size: 20px;
+  margin: 20px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userButton:hover{
+  background-color: rgb(2, 157, 157);
+}
+
+.nothing{
+  font-size: 25px;
+}
+
+@media (max-width:768px){
+ .userButton{
+  font-size: 18px;
+ }
+}
+
+@media (max-width:560px){
+  .userButton{
+    font-size: 16px;
+   }
+}
+
+@media (max-width:450px){
+  .userButton{
+    font-size: 14px;
+   }
+}

@@ -1,0 +1,86 @@
+
+.nameHeading{
+    margin: 8px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card img{
+    border: 1px solid teal;
+    height: 160px;
+}
+.details{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.nothing{
+    font-size: 25px;
+}
+
+@media (max-width:768px){
+    .nothing{
+        font-size: 23px;
+    }
+    .nameHeading{
+        font-size: 27px;
+    }
+    .userCard{
+        margin: 30px 60px;
+        height: 200px;
+    }
+    .card img{
+        height: 120px;
+    }
+    .details{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:560px){
+    .nothing{
+        font-size: 21px;
+    }
+    .nameHeading{
+        font-size: 25px;
+    }
+    .userCard{
+        margin: 20px 40px;
+        height: 180px;
+    }
+    
+    .card img{
+        height: 100px;
+    }
+    .details{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:450px){
+    .nothing{
+        font-size: 19px;
+    }
+    .nameHeading{
+        font-size: 23px;
+    }
+    .userCard{
+        margin: 20px 40px;
+        height: 250px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card img{
+        height: 80px;
+    }
+    .card p{
+        margin: 10px;
+    }
+    .details{
+        font-size: 16px;
+    }
+}
