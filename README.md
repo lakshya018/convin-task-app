@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Convin Task App using React and Redux
 
 #### This project was created using ReactJs and Redux.
 #### Used https://reqres.in api for fetching users data.
